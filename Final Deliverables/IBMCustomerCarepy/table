@@ -1,0 +1,34 @@
+CREATE TABLE regtb (
+  Name varchar(250) NOT NULL,
+  Gender varchar(250) NOT NULL,
+  Age varchar(250) NOT NULL,
+  Email varchar(250) NOT NULL,
+  Phone varchar(250) NOT NULL,
+  Address varchar(250) NOT NULL,
+  UserName varchar(250) NOT NULL,
+  Password varchar(250) NOT NULL
+)
+
+
+
+CREATE TABLE agenttb (
+  Name varchar(250) NOT NULL,
+  Gender varchar(250) NOT NULL,
+  Age varchar(250) NOT NULL,
+  Email varchar(250) NOT NULL,
+  Phone varchar(250) NOT NULL,
+  Address varchar(250) NOT NULL,
+  AgentId varchar(250) NOT NULL
+
+)
+
+
+
+
+CREATE TABLE booktb (
+  ComplaintId varchar(250) NOT NULL,
+  UserName varchar(250) NOT NULL,
+  Compliant varchar(250) NOT NULL,
+  AgentName varchar(250) NOT NULL,
+  ACTIONINFO varchar(250) NOT NULL
+)
